@@ -25,5 +25,10 @@
   },
   "files": [
     "/dist"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "cache": "~/.npm",
+    "tag": "latest"
+  }
 }
