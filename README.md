@@ -17,11 +17,11 @@ yarn add react-hook-linear-acceleration
 ## Usage
 
 ```jsx
-import React from 'react'
-import uselinear-acceleration from 'react-hook-linear-acceleration'
+import React from "react";
+import useLinearAcceleration from "react-hook-linear-acceleration";
 
 const MyComponent = () => {
-  const sensor = useLinearAcceleration()
+  const sensor = useLinearAcceleration();
 
   return !sensor.error ? (
     <ul>
@@ -31,8 +31,8 @@ const MyComponent = () => {
     </ul>
   ) : (
     <p>No linear acceleration, sorry.</p>
-  )
-}
+  );
+};
 ```
 
 ## Notes
